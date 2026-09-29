@@ -14,5 +14,13 @@ datasheet, then solves the circuit. The difficulty is numerical rather than
 conceptual: the textbook closed form overflows double precision on real
 modules, and whether the parameter fit converges depends on where it starts.
 
+### campaign
+
+[campaign](https://github.com/valentinmann/campaign) runs a parameter sweep
+described in one YAML file, locally or as SLURM job arrays, and checks every
+run against invariants the physics says cannot fail. What it guards against is
+output that looks fine: a run killed mid-write that still counts as finished,
+or a result reused after its model file has changed.
+
 Reach me at valmann@stanford.edu, or on
 [LinkedIn](https://www.linkedin.com/in/valentin-mann).

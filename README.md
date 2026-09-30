@@ -1,10 +1,10 @@
 Master's student in Atmosphere/Energy at Stanford, in the department of Civil
 and Environmental Engineering. Before that, Ecole Polytechnique.
 
-I work on optimisation and power systems, and on the scientific computing that
-sits underneath them: numerical methods applied to real data, where a
-formulation that is sound on paper can still fail quietly on one input or on
-one machine.
+I work on optimisation, power systems and energy storage, and on the scientific
+computing and machine learning that sit underneath them: methods applied to real
+data, where a formulation that is sound on paper can still fail quietly on one
+input or on one machine.
 
 ### single-diode
 

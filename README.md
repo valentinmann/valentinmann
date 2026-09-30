@@ -22,5 +22,14 @@ run against invariants the physics says cannot fail. What it guards against is
 output that looks fine: a run killed mid-write that still counts as finished,
 or a result reused after its model file has changed.
 
+### cyclelife
+
+[cyclelife](https://github.com/valentinmann/cyclelife) predicts how long a
+lithium-ion cell will last from its first 100 cycles, on the public MIT-Stanford
+dataset, splits strictly by cell, and replicates the paper's linear model to
+within five cycles. The first run was off by a factor of three on one test set:
+two physically impossible capacity readings, found by comparing each set with
+the paper separately.
+
 Reach me at valmann@stanford.edu, or on
 [LinkedIn](https://www.linkedin.com/in/valentin-mann).
